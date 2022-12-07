@@ -13,6 +13,10 @@ layout = [
 
 janela = sg.Window('Cadastro', layout)
 
+while True:
+    event, valor = janela.read()
+    if event == sg.WINDOW_CLOSED:
+        break
 
 
 
